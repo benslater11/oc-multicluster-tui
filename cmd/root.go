@@ -15,7 +15,11 @@ var rootCmd = &cobra.Command{
 	Short: "Login to multiple OpenShift clusters and display cluster health.",
 	Long: `oc-multicluster-tui is a terminal user interface for monitoring multiple OpenShift clusters. 
 	It allows users to log in to various clusters and provides a dashboard view of their health status, 
-	making it easier to manage and monitor multiple environments from a single interface.`,
+	making it easier to manage and monitor multiple environments from a single interface.
+	
+	~~~~~~~~~~~~~~~~~~~~~~~
+	Please ensure you have the OpenShift CLI (oc) installed and configured on your system.
+	~~~~~~~~~~~~~~~~~~~~~~~`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
